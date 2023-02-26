@@ -10,7 +10,35 @@
     text-decoration: none;
 }
 
-*::selection {
+/* *::selection {
     background:#15616d;
     color: white;
+} */
+
+body {
+    color: #15616d;
+    background: white;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: #001524;
+}
+
+.logo {
+    color: #ff7d00;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.logo span{
+    color: #ffecd1;
 }
