@@ -1,2 +1,2 @@
-# warteg
-restaurant website
+# Warung Tegal
+Simple restaurant website
