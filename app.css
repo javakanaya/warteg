@@ -42,3 +42,19 @@ header{
 .logo span{
     color: #ffecd1;
 }
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #ffecd1;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #ff7d00;
+    transition: .2s;
+}
