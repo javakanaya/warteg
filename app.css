@@ -199,3 +199,52 @@ section {
     color: #15616d;
     font-weight: 600;
 }
+
+seciton .footer {
+    padding: 10px 0;
+}
+
+.footer-main {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col {
+    width: 25%;
+}
+
+.col h4 {
+    font-size: 1.2rem;
+    color: #15616d;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.col h4::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: #ff7d00
+}
+
+.col ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.col ul li a{
+    color: #15616d;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.col ul li a:hover{
+    color: #001524;
+    transform: translateX(6px);
+}
